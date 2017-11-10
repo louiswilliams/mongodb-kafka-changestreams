@@ -1,0 +1,19 @@
+{
+  "name": "mongodb-kafka-changestreams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "node webapp.js",
+    "producer": "node loadFiles.js"
+  },
+  "author": "plusn-nuri",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.2",
+    "express": "^4.16.2",
+    "kafka-node": "^2.2.3",
+    "mongodb": "mongodb/node-mongodb-native#3.0.0",
+    "socket.io": "^2.0.4"
+  }
+}
