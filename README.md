@@ -27,11 +27,11 @@ Install Node.js packages:
 
 Edit configuration options in [config.js](config.js)
 
-Start a MongoDB replica set with version 3.6.0-rc0 or higher:
+Start a MongoDB replica set with version 3.6.0-rc0 or higher. This example uses one node as an example, but a replica set should always have at least 3 nodes. See [Deploying a Replica Set](https://docs.mongodb.com/manual/tutorial/deploy-replica-set/).
 
 ```
 mkdir -p data/rs1/db
-mongod --dbpath data/rs1/db --port 27000 --enableMajorityReadConcern 
+mongod --dbpath data/rs1/db --port 27000 --enableMajorityReadConcern --replSet replset
 ```
 
 Start the Kafka Producer:

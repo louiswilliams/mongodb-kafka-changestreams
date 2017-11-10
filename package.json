@@ -13,7 +13,7 @@
     "dateformat": "^3.0.2",
     "express": "^4.16.2",
     "kafka-node": "^2.2.3",
-    "mongodb": "mongodb/node-mongodb-native#3.0.0",
+    "mongodb": "mongodb/node-mongodb-native#903eb00da32503cfcfe6656e5dd3afc156e7caec",
     "socket.io": "^2.0.4"
   }
 }
