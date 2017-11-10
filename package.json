@@ -7,7 +7,7 @@
     "server": "node webapp.js",
     "producer": "node loadFiles.js"
   },
-  "author": "plusn-nuri",
+  "author": "louiswilliams",
   "license": "ISC",
   "dependencies": {
     "dateformat": "^3.0.2",
