@@ -12,7 +12,7 @@ let kafkaProducer = require('./kafkaProducer');
 let mongoClient = require('mongodb').MongoClient;
 
 // Update interval 
-let interval = process.argv[2] || 1000;
+let interval = process.argv[2] || 250;
 let numInsertions = 0;
 let deltaInsertions = 0;
 var lastPrint = new Date();
