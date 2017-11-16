@@ -84,7 +84,7 @@ function insertData(coll, symbol, minuteKey, data, next) {
     let updateDoc = {};
     updateDoc[updateKey] = data;
     updateDoc[updateKey].date = dateFormat(date, "yyyy-mm-dd'T'HH:MM:ss.l");
-    let day = dateFormat(date, "yy-mm-dd");
+    let day = dateFormat(date, "yyyy-mm-dd");
     coll.update({
         _id: {
             symbol: symbol,
