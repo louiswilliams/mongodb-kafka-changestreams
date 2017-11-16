@@ -75,7 +75,7 @@ The file [loadFiles.js](loadFiles.js) reads from JSON data files and inserts int
 
 ```
 
-The change stream documents from MongoDB take the following format. We will use the `symbol` from the `documentKey._id` to map to a Kafka partion, where each stock symbol has its own partition. We will parse the `updatedFields` as the body of the message sent to Kafka, which is later consumed by our web application.
+The change stream documents from MongoDB take the following format. We will use the `symbol` from the `documentKey._id` to map to a Kafka partition, where each stock symbol has its own partition. We will parse the `updatedFields` as the body of the message sent to Kafka, which is later consumed by our web application.
 
 ```js
 {
